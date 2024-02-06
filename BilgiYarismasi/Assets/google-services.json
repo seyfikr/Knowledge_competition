@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "809684136643",
+    "firebase_url": "https://fir-learn-55fef-default-rtdb.firebaseio.com",
+    "project_id": "fir-learn-55fef",
+    "storage_bucket": "fir-learn-55fef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809684136643:android:dd537d45265ba45655a876",
+        "android_client_info": {
+          "package_name": "com.seyfi.deneme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH-ZETibk_dqRF0LyLKK-2K0_E5RpSxgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

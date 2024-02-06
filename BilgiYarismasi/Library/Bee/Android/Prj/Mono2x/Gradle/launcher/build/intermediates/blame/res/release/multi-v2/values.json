@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\GitHub\\BilgiYarismasi\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\GitHub\\BilgiYarismasi\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\FirebaseApp.androidlib\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,137,241,350,470,569",
+                        "endColumns": "81,103,108,119,98,75",
+                        "endOffsets": "132,236,345,465,564,640"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "468,550,654,763,883,982",
+                        "endColumns": "81,103,108,119,98,75",
+                        "endOffsets": "545,649,758,878,977,1053"
+                    }
+                },
+                {
+                    "source": "D:\\GitHub\\BilgiYarismasi\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "16,18,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1058,1158,1296",
+                        "endLines": "17,20,24",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "1153,1291,1518"
+                    }
+                },
+                {
+                    "source": "D:\\GitHub\\BilgiYarismasi\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,101,158,214,263,309",
+                        "endColumns": "45,56,55,48,45,46",
+                        "endOffsets": "96,153,209,258,304,351"
+                    }
+                },
+                {
+                    "source": "D:\\GitHub\\BilgiYarismasi\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,98",
+                        "endColumns": "41,65",
+                        "endOffsets": "94,161"
+                    },
+                    "to": {
+                        "startLines": "8,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "356,400",
+                        "endColumns": "43,67",
+                        "endOffsets": "395,463"
+                    }
+                }
+            ]
+        }
+    ]
+}
