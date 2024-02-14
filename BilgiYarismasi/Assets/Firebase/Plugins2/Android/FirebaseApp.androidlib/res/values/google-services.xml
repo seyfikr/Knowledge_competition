@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="firebase_database_url" translatable="false">https://fir-learn-55fef-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">809684136643</string>
+  <string name="google_storage_bucket" translatable="false">fir-learn-55fef.appspot.com</string>
+  <string name="project_id" translatable="false">fir-learn-55fef</string>
+  <string name="google_api_key" translatable="false">AIzaSyAH-ZETibk_dqRF0LyLKK-2K0_E5RpSxgM</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAH-ZETibk_dqRF0LyLKK-2K0_E5RpSxgM</string>
+  <string name="google_app_id" translatable="false">1:809684136643:android:dd537d45265ba45655a876</string>
+</resources>
