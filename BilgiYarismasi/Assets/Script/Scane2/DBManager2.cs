@@ -27,7 +27,8 @@ public class DBManager2 : MonoBehaviour
                 //iþlemler
                 Debug.Log("Baðlandý");
                 usersReference = FirebaseDatabase.DefaultInstance.GetReference("users");
-                SaveData("seyfi",50,true);
+                //SaveData("seyfi",50,true);
+                GetUserList();
             }
             else
             {
@@ -43,5 +44,28 @@ public class DBManager2 : MonoBehaviour
         string json=JsonUtility.ToJson(user);
         string userID = usersReference.Push().Key;
         usersReference.Child(userID).SetRawJsonValueAsync(json);
+    }
+    void GetUserList()
+    {
+        usersReference.GetValueAsync().ContinueWith(task =>
+        {
+
+            if (task.IsFaulted)
+            {
+                Debug.Log("faulted");
+            }
+            else if (task.IsCompleted)
+            {
+                DataSnapshot snapshot = task.Result;
+                foreach(DataSnapshot UserID in snapshot.Children)
+                {
+                    //Debug.Log(UserID.Key);
+                    //string _userId = UserID.Key;
+                    string username = snapshot.Child(UserID.Key).Child("highScore").Value.ToString();
+                    Debug.Log(username);
+                  
+                }
+            }
+        });       
     }
 }

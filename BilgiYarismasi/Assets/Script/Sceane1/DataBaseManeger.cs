@@ -33,13 +33,15 @@ public class DataBaseManeger : MonoBehaviour
         string userName = UserName.text;
         int highScore = 0;
 
+        // Yeni Kiþi Oluþturma
+        string newUserId = dbReference.Child("users").Push().Key;
+
         User newUser = new User(userName, highScore);
         string json = JsonUtility.ToJson(newUser);
         SceneManager.LoadScene(1);
-
         // Veri tabanýný gönderme
-        //Child Tabloda Satýr açmaya yarýyor
-        dbReference.Child("users").Child(userID).SetRawJsonValueAsync(json).ContinueWith(task =>
+        // Child Tabloda Satýr açmaya yarýyor
+        dbReference.Child("users").Child(newUserId).SetRawJsonValueAsync(json).ContinueWith(task =>
         {
             if (task.IsFaulted)
             {
